@@ -1,0 +1,61 @@
+.ta-homa{
+    font-size: 20px;
+    font-family: Tahoma;
+    font-weight: bold;
+}
+.deal-offer{
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+    width: 250px;
+}
+.sale-line{
+    font-family: Arial;
+    font-size: 16px;
+    color: rgb(218, 85, 85);
+    margin-top: 20px;
+}
+
+.html-css{
+    font-family: verdana;
+    width: 350px;
+
+}
+.the-title{
+    font-weight: bold;
+}
+.sub-title{
+    color: grey;
+    font-size: 15px;
+   
+}
+.title-text{
+    color: rgb(3, 3, 3);
+    font-size: 15px;
+}
+.start-button{
+    background-color: green;
+    color: white;
+    font-family: verdana;
+    border: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.shopp-ing{
+    font-weight: bold;
+    font-size: 20px;
+    width: 200px;
+    line-height: 10px;
+    margin-left: 15px;
+
+}
+.app-le{
+    font-size: 15px;
+    margin-left: 50px;
+    line-height: 60px;
+    width:10px;
+}

@@ -1,0 +1,43 @@
+.p1-color{
+     color:rgb(0, 118, 0)
+    }
+.cart-button{
+    background-color: rgb(223, 191, 11);
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.15s;
+    vertical-align: top;
+}
+.cart-button:hover{
+    opacity: 0.8;
+}
+
+.cart-button:active{
+    background-color: green;
+    transition: 1s;
+}
+
+.buy-button{
+    background-color: rgb(223, 167, 11);
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.15s;
+    vertical-align: top;
+}
+.buy-button:hover{
+    opacity: 0.6;
+}

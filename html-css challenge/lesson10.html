@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>nesting</title>
+        <style>
+            .fb-layout{
+                display: inline-block;
+                margin-right: 50px;
+                
+            }
+            .account{
+                display: block;
+                
+            }
+            .profile{
+                width: 60px;
+                border-radius: 50%;
+                display: inline-block;
+                vertical-align: top;
+                margin-top: 10px;
+            }
+            .dog-profile{
+                width: 60px;
+                height: 60px;
+                border-radius: 100%;
+                display: inline-block;
+                vertical-align: top;
+                margin-top: 10px;
+                object-position: fit;
+              
+            }
+            .username{
+                font-weight: bold;
+                font-size: 14px;
+                font-family: arial;
+               width: 100px;
+               margin-top: 0;
+               margin-top: 10px;
+               
+               
+            }
+           .aka{
+                color: rgb(96, 96, 96);
+                font-family: arial;
+                display: inline-block;
+                width: 100px;
+               margin-top: 0;
+            } 
+            .user{
+                display: inline-block;
+            }
+            .follow{
+                background-color: rgb(86, 177, 212);
+                color: white;
+                border-radius: 4px;
+                border: none;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-right: 16px;
+                padding-left: 16px;
+                display: inline-block;
+                vertical-align: middle;
+
+            }
+            .youtube-videos{
+                display: inline-block;
+                width: 500px;
+            }
+            .youtube{
+                display: inline;
+                vertical-align: top;
+                width: 300px;
+            }
+            .picture{
+                width: 200px;
+                height: 150px;
+                display: inline;
+                vertical-align: top;
+                margin-bottom: 10px;
+                object-fit: contain;
+            }
+            .acc{
+                display: inline-block;
+                vertical-align: top;
+            }
+
+            .title{
+                width: 200px;
+                vertical-align: top;
+                font-weight: bold;
+                font-family: arial;
+                line-height: 16px;
+               
+            }
+            .author{
+                width: 200px;
+                vertical-align: top;
+                color: rgb(96, 96, 96);
+            }
+            .views{
+                vertical-align: top;
+                color: rgb(96, 96, 96);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="fb-layout">
+        <div class="account">
+        <img class="profile" src="cat.png">
+        <div class="user">
+            <p class="username">oliver</p>
+        <p class="aka">the cat Popular</p>
+    </div>
+    <button class="follow">Follow</button>
+</div>
+
+<div class="account">
+    <img class="profile" src="cat2.jpg">
+    <div class="user">
+        <p class="username">Mimi</p>
+    <p class="aka">sleepy cat Popular</p>
+</div>
+<button class="follow">Follow</button>
+</div>
+
+<div class="account">
+<img class="dog-profile" src="dog3.jpg">
+<div class="user">
+    <p class="username">Rex</p>
+<p class="aka">happy dog Popular</p>
+</div>
+<button class="follow">Follow</button>
+</div>
+</div>
+
+<div class="youtube-videos">
+<div class="youtube">
+<img class="picture" src="image2.png">
+<div class="acc">
+<p class="title">How to compete against CS degree (as a self-taught dev)</p>
+    <p class="author">SuperSimpleDev</p>
+<p class="views">1.5k views &#183; 4 months ago</p>
+</div>
+</div>
+
+<div>
+<div class="youtube">
+    <img class="picture" src="image3.png">
+    <div class="acc">
+    <p class="title">How to compete against CS degree (as a self-taught dev)</p>
+        <p class="author">SuperSimpleDev</p>
+    <p class="views">1.5k views &#183; 4 months ago</p>
+    </div>
+    </div>
+
+    <div class="youtube">
+        <img class="picture" src="image4.png">
+        <div class="acc">
+        <p class="title">How to compete against CS degree (as a self-taught dev)</p>
+            <p class="author">SuperSimpleDev</p>
+        <p class="views">1.5k views &#183; 4 months ago</p>
+        </div>
+        </div>
+        </div>
+    </body>
+</html>
